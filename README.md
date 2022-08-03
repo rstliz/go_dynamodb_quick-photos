@@ -1,0 +1,1 @@
+# go_dynamodb_quick-photos
