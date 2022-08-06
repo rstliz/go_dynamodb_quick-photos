@@ -16,7 +16,7 @@ import (
 )
 
 func main() {
-	f, _ := os.Open("scripts/sample.json")
+	f, _ := os.Open("scripts/items.json")
 	bu := bufio.NewReaderSize(f, 1024)
 
 	items := make([]interface{}, 0)
